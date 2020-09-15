@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@577&display=swap');
+
+.Editor {
+	height: 600px;
+	border: 1px solid #ccc;
+	grid-column: 1;
+}
+
+.compile-button {
+	background: rgb(20, 212, 94);
+	width: 100px;
+	height: 40px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.editor-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.result {
+	border: 1px solid lightgray;
+	padding: 0 40px;
+	height: 600px;
+	overflow-y: scroll;
+	grid-column: 2;
+	font-family: 'Inconsolata', monospace;
+	display: flex;
+	flex-direction: column;
+}
+
+.toolbar {
+	display: flex;
+	background: rgb(42, 42, 42);
+	justify-content: center;
+	padding: 5px 10px;
+}
